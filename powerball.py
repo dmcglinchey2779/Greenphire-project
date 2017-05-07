@@ -42,7 +42,7 @@ while powerball_entries == 'y':
 
 
 
-    powerball_data_for_calculator[last_name + "_" + first_name] = \
+    powerball_data_for_calculator[first_name + " " + last_name] = \
     {'1st': first_five[0], '2nd': first_five[1], '3rd': first_five[2], \
      '4th': first_five[3], '5th': first_five[4], 'Powerball': power_ball_number_six}
 
@@ -100,7 +100,7 @@ for favorite in top_five_favorites:
     powerball_winning_number.append(favorite[0])
 
 
-print(powerball_winning_number)
+#print(powerball_winning_number)
 
 #print out employee entries
 for employee,powerball in powerball_data_for_calculator.items():
