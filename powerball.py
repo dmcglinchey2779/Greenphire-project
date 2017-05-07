@@ -13,9 +13,9 @@ powerball_data_for_calculator = {}
 powerball_entries = input('Press y if you want to enter your powerball favorite numbers. ')
 while powerball_entries == 'y':
     first_name = input("What is your first name? ")
-    first_name
+
     last_name = input("What is your last name? ")
-    last_name
+    
 
     #we draw five white balls out of a drum with 69 balls and one red ball out of a drum with 26 red balls
     first_five = []
